@@ -7,7 +7,8 @@ from django.http import HttpResponse, HttpResponseRedirect
 from .models import User,Category, Product, Cart, CartItem, Order, OrderItem, Review, Wishlist, Wholesaler, Auction, Bid, Collection
 from django.contrib.auth.models import Group
 
-# Create your views here.
+# Create your views here
+# Done by Muneeb Ahmed
 def login_view(request):
     # if request.user.is_authenticated:
     #     return HttpResponseRedirect(reverse("EBazaar:index"))
